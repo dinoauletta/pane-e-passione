@@ -1,0 +1,79 @@
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fdfcf8;
+    color: #4b2e2e;
+}
+.hero {
+    background: linear-gradient(135deg, #a8dadc, #457b9d);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+.hero p {
+    font-size: 20px;
+}
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background: #264653;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.about, .products, .contact {
+    padding: 60px 20px;
+    text-align: center;
+}
+.product-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.item {
+    width: 280px;
+}
+.item img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.item p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+input, textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    padding: 12px;
+    background-color: #2a9d8f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+footer {
+    background: #4b2e2e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
